@@ -8,7 +8,7 @@ function App() {
         <Canvas 
       camera={{position:[2,4,4]}}
          >
-          <mesh>
+          <mesh position={[-2,-3,2]} rotation={[0,0,Math.PI]}>
           {/* <sphereGeometry   args={[3,10,8]}/> */}
           <torusKnotGeometry  args={[1.7,0.3,256,256]}/>
           {/* <boxGeometry args={[10,10 ,11]}/> */}
